@@ -1,7 +1,54 @@
+body{
+    margin-left: 20px;
+}
+
+
 
 .header{
     background-color: sandybrown;
     height: 50px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+.header-title{
+    margin-left: 10px;
+}
+
+.header-links-parent{
+    display: flex;
+}
+
+.header-link{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-headline {
+    display: flex;
+    background-color: lightblue;
+    /*padding: 20px;*/
+}
+
+
+
+.main-headline-image{
+    max-width: 500px;
+    max-height: 300px;
+    margin: 20px;
+}
+
+
+.other-news {
+    text-align: center;
+}
+
+.small-headlines-parent{
+    display: flex;
+
+}
+
+.small-headline img {
+    width: 150px;
+    height: 100px;
 }
