@@ -1,5 +1,6 @@
 body{
     margin-left: 20px;
+    background-color: beige;
 }
 
 
@@ -33,8 +34,8 @@ body{
 
 
 .main-headline-image{
-    max-width: 500px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 200px;
     margin: 20px;
 }
 
@@ -47,8 +48,31 @@ body{
     display: flex;
 
 }
+.small-headline h3{
+    margin: 2px;
+}
 
 .small-headline img {
-    width: 150px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.small-headline-text p {
+    font-size: 14px;
+}
+
+.small-headline {
+    width: 300px;
+    border: solid;
+}
+
+button {
+    padding: 7px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f44336;
 }
